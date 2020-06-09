@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:src="@drawable/mobile_sms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="OTP Verification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/editText_otp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:background="#FBC02D"
+        android:hint="Enter OTP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
